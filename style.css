@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   object-fit: contain;
+  font-family: Georgia, "Times New Roman", Times, serif;
   /* content fit the container */
 }
 header {
@@ -17,7 +18,7 @@ header div {
   /* color to the topborder */
 }
 header p {
-  font-size: 1.1em;
+  word-spacing: 1.5px;
 }
 header span {
   font-weight: 600;
@@ -30,6 +31,9 @@ main {
 }
 #intro {
   text-align: center;
+}
+#intro h1 {
+  font-size: 1.8em;
 }
 /* #intro img {
   width: 100%;
